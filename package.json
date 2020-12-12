@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "My first node js app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saranshdabas/-LEARNING-MERN-NodeJs.git"
+  },
+  "author": "Saransh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saranshdabas/-LEARNING-MERN-NodeJs/issues"
+  },
+  "homepage": "https://github.com/saranshdabas/-LEARNING-MERN-NodeJs#readme"
+}
