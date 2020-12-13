@@ -6,5 +6,10 @@ var helloWorld = () => {
 
 helloWorld();
 
-//marks the data as exportable
-module.exports.myName = myName;
+var addModule = require("./addition");
+addModule.addition();
+console.log(addModule.justAVariable);
+
+var subModule = require("./subtraction");
+subModule.substraction();
+console.log(subModule.justBVariable);
