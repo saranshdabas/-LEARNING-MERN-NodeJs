@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-//readFile takes 2 args, location of file and a callback fn
+//readFile takes 3 args, location of file, format of file and a callback fn
 fs.readFile(__dirname + "/hello.txt", "utf8", (err, data) => {
   if (err) throw err;
   console.log(data);
